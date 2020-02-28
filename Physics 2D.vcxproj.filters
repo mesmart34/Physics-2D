@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core.cpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="input_handler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="vec2.cpp" />
+    <ClCompile Include="abstract_game.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="mathf.cpp" />
+    <ClCompile Include="physics.cpp" />
+    <ClCompile Include="polygon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="input_handler.h" />
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="vec2.h" />
+    <ClInclude Include="abstract_game.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="mathf.h" />
+    <ClInclude Include="physics.h" />
+    <ClInclude Include="rigidbody.h" />
+    <ClInclude Include="polygon.h" />
+  </ItemGroup>
+</Project>

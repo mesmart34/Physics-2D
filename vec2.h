@@ -16,6 +16,7 @@ public:
 	vec2 operator* (float s) const;
 	vec2& operator*= (const vec2& a);
 	vec2& operator*= (float s);
+	inline float operator ^ (const vec2& v)	const { return (x * v.y) - (y * v.x); }
 	static vec2 lerp(vec2 start, vec2 end, float c);
 	static vec2 get_normalized(vec2 v);
 	static float get_magnitude(vec2 v);
